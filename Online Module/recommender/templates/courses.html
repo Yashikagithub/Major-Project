@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSE RECOMMENDATIONS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://wallpapercave.com/wp/8l83IuI.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+        }
+        h1 {
+            font-family: 'Times New Roman', serif;
+            font-weight: bold;
+            font-size: 3rem;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 30px;
+        }
+        .top-recommendations {
+            font-family: 'Times New Roman', serif;
+            font-weight: bold;
+            font-size: 2.5rem;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .course-boxes {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .course-box {
+            width: 250px;
+            height: 380px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            background-color: rgba(0, 0, 0, 0.6); /* Slightly dark background for readability */
+        }
+        .course-box:hover {
+            transform: scale(1.05);
+        }
+        .course-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .course-title {
+            font-size: 1.2rem;
+            margin: 15px;
+            color: #fff;
+        }
+        .course-description {
+            font-size: 1rem;
+            color: #fff;
+            margin: 10px;
+            padding: 0 15px;
+            text-align: center;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Course Recommendations</h1>
+    <div class="top-recommendations">TOP RECOMMENDATIONS</div>
+    <div class="course-boxes">
+        <!-- Cloud Computing Course -->
+        <div class="course-box" onclick="window.location.href='course1.html';">
+            <img class="course-img" src="http://4.bp.blogspot.com/-VUh4P9IAaIs/Uzmr30k4AhI/AAAAAAAABRo/3d-hslTNsIU/s1600/cloud.jpg" alt="Cloud Computing">
+            <div class="course-title">Cloud Computing</div>
+            <p class="course-description">
+                Learn Cloud Computing basics and how to use platforms like AWS and Azure.
+            </p>
+        </div>
+        
+        <!-- DevOps Essentials Course -->
+        <div class="course-box" onclick="window.location.href='course2.html';">
+            <img class="course-img" src="https://teorema-rd.com/wp-content/uploads/2024/01/devops-essentials.jpg" alt="DevOps Essentials">
+            <div class="course-title">DevOps Essentials</div>
+            <p class="course-description">
+                Understand CI/CD, automation, and DevOps best practices for efficient software delivery.
+            </p>
+        </div>
+
+        <!-- Python Course -->
+        <div class="course-box" onclick="window.location.href='course3.html';">
+            <img class="course-img" src="https://p1.ssl.qhimg.com/t010d1433ef39d6d0cf.jpg" alt="Python for Beginners">
+            <div class="course-title">Python for Beginners</div>
+            <p class="course-description">
+                Get started with Python, covering basic programming concepts and hands-on coding.
+            </p>
+        </div>
+
+        <!-- Java Course -->
+        <div class="course-box" onclick="window.location.href='course4.html';">
+            <img class="course-img" src="https://brandlogos.net/wp-content/uploads/2021/11/java-logo.png" alt="Advanced Java">
+            <div class="course-title">Advanced Java</div>
+            <p class="course-description">
+                Master advanced Java concepts, including multithreading and design patterns.
+            </p>
+        </div>
+
+        <!-- Law Basics Course -->
+        <div class="course-box" onclick="window.location.href='course7.html';">
+            <img class="course-img" src="https://img.freepik.com/premium-vector/attorney-law-service-justice-logo-design_779965-8.jpg?w=2000" alt="Law Basics">
+            <div class="course-title">Law Basics</div>
+            <p class="course-description">
+                Learn the foundational principles of law, including legal systems and rights.
+            </p>
+        </div>
+
+        <!-- Business Management Course -->
+        <div class="course-box" onclick="window.location.href='course6.html';">
+            <img class="course-img" src="https://png.pngtree.com/png-clipart/20221110/original/pngtree-management-logo-design-template-vector-picture-image_3620014.png" alt="Business Management">
+            <div class="course-title">Business Management</div>
+            <p class="course-description">
+                Learn key strategies in leadership, planning, and financial analysis.
+            </p>
+        </div>
+
+        <!-- AWS Course -->
+        <div class="course-box" onclick="window.location.href='course10.html';">
+            <img class="course-img" src="https://gadget.co.za/wp-content/uploads/2020/12/aws-logo-scaled.jpg" alt="AWS">
+            <div class="course-title">AWS</div>
+            <p class="course-description">
+                Master AWS services like EC2 and S3 for cloud solution design and deployment.
+            </p>
+        </div>
+
+        <!-- Big Data Course -->
+        <div class="course-box" onclick="window.location.href='course11.html';">
+            <img class="course-img" src="https://techbooky.com/wp-content/uploads/2021/06/big-data1.jpg" alt="Big Data">
+            <div class="course-title">Big Data</div>
+            <p class="course-description">
+                Learn tools like Hadoop and Spark to process and analyze large datasets.
+            </p>
+        </div>
+
+        <!-- Power BI Course -->
+        <div class="course-box" onclick="window.location.href='course12.html';">
+            <img class="course-img" src="https://tse1.mm.bing.net/th?id=OIP.shGOhtIdDvsjExQmrHOqXwHaEK&pid=Api&rs=1&c=1&qlt=95&w=193&h=108" alt="Power BI">
+            <div class="course-title">Power BI</div>
+            <p class="course-description">
+                Learn how to create interactive reports and dashboards using Power BI.
+            </p>
+        </div>
+
+        <!-- Unity Course -->
+        <div class="course-box" onclick="window.location.href='course13.html';">
+            <img class="course-img" src="https://brandslogos.com/wp-content/uploads/images/large/unity-logo.png" alt="Unity">
+            <div class="course-title">Unity</div>
+            <p class="course-description">
+                Learn how to create 2D and 3D games and interactive experiences using Unity.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

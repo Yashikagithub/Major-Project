@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Career Pathways</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ecf0f1;
+            background-image: url('https://www.w3schools.com/w3images/photographer.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: rgba(44, 62, 80, 0.7);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .career {
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .career h2 {
+            color: #2980b9;
+            font-size: 1.8rem;
+        }
+        .career p {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #555;
+        }
+        .career ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .career ul li {
+            padding: 5px 0;
+        }
+        .career ul li strong {
+            color: #2c3e50;
+        }
+        .career a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .career a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: rgba(44, 62, 80, 0.7);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .search-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .search-container input {
+            padding: 10px;
+            width: 60%;
+            font-size: 1rem;
+        }
+        .search-container button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .search-container button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Top Career Pathways</h1>
+    <p>Explore the most in-demand career options and their pathways to success!</p>
+</header>
+
+<div class="search-container">
+    <input type="text" id="search-bar" placeholder="Search for career options...">
+    <button onclick="searchCareer()">Search</button>
+</div>
+
+<div class="container">
+    <div class="career">
+        <h2>1. Software Engineer/Developer</h2>
+        <p>As a Software Engineer, you’ll be developing applications, systems, and software solutions for various industries.</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor’s degree in Computer Science or related field.</li>
+            <li><strong>Skills:</strong> Programming languages (Java, Python, C++), algorithms, data structures, problem-solving.</li>
+            <li><strong>Certifications:</strong> AWS Certified Solutions Architect, Google Cloud Certified.</li>
+            <li><strong>Experience:</strong> Internships, projects, and open-source contributions.</li>
+            <li><strong>Job Titles:</strong> Software Developer, Backend Developer, Mobile App Developer.</li>
+            <li><strong>Dream Companies:</strong> Google, Microsoft, Amazon, Facebook, Apple.</li>
+        </ul>
+    </div>
+
+    <div class="career">
+        <h2>2. Data Scientist</h2>
+        <p>Data Scientists analyze and interpret complex data to help organizations make informed decisions.</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor’s in Computer Science, Mathematics, or Engineering.</li>
+            <li><strong>Skills:</strong> Data analysis, machine learning, Python, R, statistics, data visualization.</li>
+            <li><strong>Certifications:</strong> Data Science and Machine Learning certifications (Coursera, edX).</li>
+            <li><strong>Experience:</strong> Data analysis internships, Kaggle competitions, research projects.</li>
+            <li><strong>Job Titles:</strong> Data Scientist, Machine Learning Engineer, Data Analyst.</li>
+            <li><strong>Dream Companies:</strong> Netflix, LinkedIn, Uber, IBM, Microsoft, Amazon.</li>
+        </ul>
+    </div>
+
+    <div class="career">
+        <h2>3. Cloud Architect</h2>
+        <p>Cloud Architects design and implement cloud computing strategies and architecture for businesses.</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor’s in Computer Science or Cloud Computing.</li>
+            <li><strong>Skills:</strong> Cloud platforms (AWS, Azure), architecture design, security.</li>
+            <li><strong>Certifications:</strong> AWS Certified Solutions Architect, Google Cloud Professional Cloud Architect.</li>
+            <li><strong>Experience:</strong> Hands-on cloud deployment, large-scale IT infrastructure projects.</li>
+            <li><strong>Job Titles:</strong> Cloud Architect, Cloud Engineer, DevOps Engineer.</li>
+            <li><strong>Dream Companies:</strong> Amazon, Google, Microsoft, IBM, Oracle.</li>
+        </ul>
+    </div>
+
+    <div class="career">
+        <h2>4. Cybersecurity Analyst</h2>
+        <p>Cybersecurity Analysts protect organizations from cyber threats and ensure data integrity and privacy.</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor’s degree in Cybersecurity or related field.</li>
+            <li><strong>Skills:</strong> Network security, encryption, ethical hacking, penetration testing.</li>
+            <li><strong>Certifications:</strong> Certified Ethical Hacker (CEH), CISSP, CompTIA Security+.</li>
+            <li><strong>Experience:</strong> Security assessments, bug bounties, internships in security operations.</li>
+            <li><strong>Job Titles:</strong> Cybersecurity Analyst, Penetration Tester, Security Engineer.</li>
+            <li><strong>Dream Companies:</strong> Cisco, IBM, Palo Alto Networks, CrowdStrike, FireEye.</li>
+        </ul>
+    </div>
+
+    <div class="career">
+        <h2>5. AI/Machine Learning Engineer</h2>
+        <p>AI/ML Engineers work on creating intelligent systems and building algorithms that help machines learn and make decisions.</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor’s or Master’s degree in AI, Computer Science, or related fields.</li>
+            <li><strong>Skills:</strong> Machine learning frameworks, neural networks, Python, data modeling.</li>
+            <li><strong>Certifications:</strong> Coursera Machine Learning, Google AI certification.</li>
+            <li><strong>Experience:</strong> Research projects, Kaggle competitions, practical application of ML algorithms.</li>
+            <li><strong>Job Titles:</strong> Machine Learning Engineer, Data Scientist, AI Researcher.</li>
+            <li><strong>Dream Companies:</strong> Google, Tesla, NVIDIA, Facebook, Microsoft.</li>
+        </ul>
+    </div>
+
+
+    <div class="career">
+        <h2>6. Product Manager</h2>
+        <p>Product Managers oversee the development and launch of products, ensuring they meet customer needs and business goals.</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor’s degree in Business, Marketing, or Engineering; MBA for higher roles.</li>
+            <li><strong>Skills:</strong> Leadership, project management, market research, product lifecycle management.</li>
+            <li><strong>Certifications:</strong> Product Management certifications, Scrum/Agile methodologies.</li>
+            <li><strong>Experience:</strong> Managing product development, user research, prototyping.</li>
+            <li><strong>Job Titles:</strong> Product Manager, Senior Product Manager, Product Owner.</li>
+            <li><strong>Dream Companies:</strong> Apple, Google, Microsoft, Amazon, Facebook.</li>
+        </ul>
+    </div>
+
+    <div class="career">
+        <h2>7. Navy Officer</h2>
+        <p>Navy Officers lead, manage, and oversee naval operations, ensuring the defense and security of the country.</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor's degree or equivalent, and Naval Academy training.</li>
+            <li><strong>Skills:</strong> Leadership, decision-making, communication, physical fitness, naval strategy.</li>
+            <li><strong>Certifications:</strong> Naval training certifications, Officer's training program.</li>
+            <li><strong>Experience:</strong> Naval cadet programs, leadership roles within military training.</li>
+            <li><strong>Job Titles:</strong> Navy Officer, Naval Engineer, Submarine Officer.</li>
+            <li><strong>Dream Employers:</strong> Indian Navy, U.S. Navy, Royal Navy, Naval Forces Worldwide.</li>
+        </ul>
+    </div>
+
+    <div class="career">
+        <h2>8. UX/UI Designer</h2>
+        <p>UX/UI Designers focus on designing user-friendly interfaces and creating great user experiences for digital products.</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor’s in Design, HCI, or related fields.</li>
+            <li><strong>Skills:</strong> Wireframing, prototyping, design tools (Figma, Adobe XD), user testing.</li>
+            <li><strong>Certifications:</strong> Google UX Design Certificate, Interaction Design Foundation.</li>
+            <li><strong>Experience:</strong> Portfolio of design work, internships in design teams.</li>
+            <li><strong>Job Titles:</strong> UX Designer, UI Designer, Interaction Designer.</li>
+            <li><strong>Dream Companies:</strong> Apple, Google, Microsoft, Adobe, Airbnb.</li>
+        </ul>
+    </div>
+   <div class="career">
+        <h2>9. Financial Analyst</h2>
+        <p>Financial Analysts evaluate and interpret financial data, providing insights for decision-making in businesses.</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor’s in Finance, Economics, or Accounting.</li>
+            <li><strong>Skills:</strong> Financial modeling, forecasting, Excel, financial statements.</li>
+            <li><strong>Certifications:</strong> CFA, FRM.</li>
+            <li><strong>Experience:</strong> Finance internships, working with financial reports and analysis.</li>
+            <li><strong>Job Titles:</strong> Financial Analyst, Investment Analyst, Risk Analyst.</li>
+        </ul>
+    </div>
+
+   <div class="career">
+        <h2>10. Game Developer</h2>
+        <p>Game Developers create interactive and immersive video games, handling everything from game mechanics to visuals.</p>
+        <ul>
+            <li><strong>Education:</strong> Bachelor’s degree in Computer Science or Game Development.</li>
+            <li><strong>Skills:</strong> Unity, Unreal Engine, C#, 3D modeling, animation.</li>
+            <li><strong>Certifications:</strong> Unity Certified Developer, Unreal Engine certifications.</li>
+            <li><strong>Experience:</strong> Building indie games, working on game development projects, internships.</li>
+            <li><strong>Job Titles:</strong> Game Developer, Game Designer, Level Designer.</li>
+            <li><strong>Dream Companies:</strong> Blizzard Entertainment, Electronic Arts, Epic Games, Ubisoft.</li>
+        </ul>
+    </div>
+
+
+
+    <!-- Add more career options as needed -->
+
+</div>
+
+<footer>
+    <p>Explore and choose your career wisely! Find what excites you the most.</p>
+</footer>
+
+<script>
+    function searchCareer() {
+        var input = document.getElementById("search-bar").value.toLowerCase();
+        var careers = document.querySelectorAll('.career');
+        
+        careers.forEach(function(career) {
+            var title = career.querySelector('h2').textContent.toLowerCase();
+            if (title.includes(input)) {
+                career.style.display = 'block';
+            } else {
+                career.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
